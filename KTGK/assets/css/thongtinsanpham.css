@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Header{
+    height : 70px;
+    background-color: darksalmon;
+    position: fixed;
+    display: block;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    /* dùng để nổi lên khi 2 cái đè nhau */
+    
+
+}
+img{ 
+    float: left;
+    height: 100%;
+    margin-left: 20px;
+
+}
+#nav{
+    display: inline-block;
+    margin-left: 200px;
+}
+
+#nav > li{
+    display: inline-block;
+}
+#nav li{
+    position: relative;
+
+}
+#nav > li > a {
+    color :#fff;
+    text-transform: uppercase;
+    /* dòng 41 dùng để in hoa chữ  */
+}
+#nav li a{
+    text-decoration: none;
+    /* dùng để tắt gạch chân */
+    line-height: 70px;
+    /* dùng để căn giữa và ta chọn 46px để bằng header để nó căn giữa header */
+    padding: 0 24px;
+    /* padding để căn khoảng cách trái phải */
+    display: block;
+}
+/* #nav li a .ti-search{
+    margin-left: 5px;
+} */
+
+#nav >li:hover >a{
+    color : #000;
+    background-color: #ccc;
+} 
+.search-box{
+    background: #fff;
+    border-radius: 30px;
+    float: right;
+    margin-top: 15px;
+}
+    .search-box #search-text{
+        border: none;
+        outline: none;
+        background: none;
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+    .search-box .search-btn{
+        background-color: #fff;
+        border: none;
+        padding: 15px;
+        border-radius: 50%;
+    }
+    body{
+        background-color: #F5F5F5;
+    }
+    #thongtinsanpham{
+        background-color: #F5F5F5;
+         margin-top: 70px; 
+         margin-bottom: 100px;
+        display: block;
+        height: 500px;
+    }
+    #thongtinsanpham .chitietsanpham{
+        background-color: #F5F5F5;
+        display: inline-block;  
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    #thongtinsanpham .tieude{
+        padding: 25px 15px ;
+        margin-left: 100px;
+        margin-right: 10px;
+        background-color: #fff;
+        height: 100%;
+        width: 50%;
+        display: inline-block;
+    }
+    #thongtinsanpham .tieude h3{
+        margin-left: 50px;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    #thongtinsanpham .tieude h5{
+        font-family: 'Lato', sans-serif;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-size: 20px;
+        color:#FE5858;
+    }
+    #thongtinsanpham .tieude p{
+        font-size: 13px;
+        margin: 30px 50px;
+        color: #666666;
+        font-family: 'Lato', sans-serif;
+    }
+    #thongtinsanpham .tieude .button1{
+        margin-top: 10px;
+        margin-left: 50px;
+        border: 1px #666666;
+        display: block;
+        background-color: #ccc;
+        float: left;
+        padding: 10px 3px;
+    }
+    #thongtinsanpham .tieude .button2{
+        margin-left: 10px;
+        margin-top: 10px;
+        border: 1px #666666;
+        display: block;
+        background-color: #ccc;
+        float: left;
+        padding: 10px 5px;
+    }
+    #thongtinsanpham .tieude a{
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        padding: 10px 10px;
+        text-decoration: none;
+        color: #666666;
+        margin-left: 3px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    #thongtinsanpham .tieude a:hover{
+        font-weight: bold;
+        color:white;
+        background-color: red;
+    }
+    #thongtinsanpham .tieude .button1:hover{
+        color:white;
+        background-color: red;
+    }
+    
+    #thongtinsanpham .tieude .button2:hover{
+        color:white;
+        background-color: red;
+    }
+
+
+    
+    #footer{
+        padding:25px 15px 30px;
+        height: 300px;
+        background-color: darksalmon;
+      
+    }
+    #footer .tuvan{
+        float: left;
+        display: inline-block;
+      
+        margin-left: 350px;
+    }
+    #footer .tuvan .tuvan1{
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    #footer .tuvan .tuvan2{
+    margin-top: 10px;
+    }
+    #footer .tuvan .tuvan3{
+        margin-top: 10px;
+    }
+    #footer .tuvan .tuvan4{
+        margin-top: 10px;
+    }
+    #footer .chinhsach{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    #footer .chinhsach p{
+        margin-top: 10px;    
+        margin-left: 100px;
+       
+    }
+    #footer .lienhe{
+        margin-top: -200px;
+        margin-left: 80px;
+        display: inline-block;
+        text-align: center;
+    }
+    #footer .lienhe p{
+        margin-top: 13px;
+    }
+
+    

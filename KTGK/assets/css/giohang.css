@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.clear{
+    clear: both;
+}
+body{
+    background: #f4f4f4;
+    
+    
+}
+#Header{
+    height : 70px;
+    background-color: darksalmon;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    /* dùng để nổi lên khi 2 cái đè nhau */
+    
+
+}
+img{ 
+    float: left;
+    height: 100%;
+    margin-left: 20px;
+
+}
+#nav{
+    display: inline-block;
+    margin-left: 200px;
+}
+
+#nav > li{
+    display: inline-block;
+}
+#nav li{
+    position: relative;
+
+}
+#nav > li > a {
+    color :#fff;
+    text-transform: uppercase;
+    /* dòng 41 dùng để in hoa chữ  */
+}
+#nav li a{
+    text-decoration: none;
+    /* dùng để tắt gạch chân */
+    line-height: 70px;
+    /* dùng để căn giữa và ta chọn 46px để bằng header để nó căn giữa header */
+    padding: 0 24px;
+    /* padding để căn khoảng cách trái phải */
+    display: block;
+}
+/* #nav li a .ti-search{
+    margin-left: 5px;
+} */
+
+#nav >li:hover >a{
+    color : #000;
+    background-color: #ccc;
+} 
+.search-box{
+    background: #fff;
+    border-radius: 30px;
+    float: right;
+    margin-top: 15px;
+}
+    .search-box #search-text{
+        border: none;
+        outline: none;
+        background: none;
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+    .search-box .search-btn{
+        background-color: #fff;
+        border: none;
+        padding: 15px;
+        border-radius: 50%;
+    }
+    .giohang{
+        height:380px;
+        margin-top: 70px;
+    }
+    
+
+    .giohang{
+        text-align: center;
+    }
+
+#footer{
+    margin-top: 0;
+    padding:25px 15px 30px;
+    height: 400px;
+    background-color: darksalmon;
+  
+}
+#footer .tuvan{
+    float: left;
+    display: inline-block;
+    margin-left: 350px;
+}
+#footer .tuvan .tuvan1{
+    margin-top: 10px;
+    font-weight: bold;
+}
+#footer .tuvan .tuvan2{
+margin-top: 10px;
+}
+#footer .tuvan .tuvan3{
+    margin-top: 10px;
+}
+#footer .tuvan .tuvan4{
+    margin-top: 10px;
+}
+#footer .chinhsach{
+    display: inline-block;
+    margin-left: 10px;
+}
+#footer .chinhsach p{
+    margin-top: 10px;    
+    margin-left: 100px;
+   
+}
+#footer .lienhe{
+    margin-top: -200px;
+    margin-left: 80px;
+    display: inline-block;
+    text-align: center;
+}
+#footer .lienhe p{
+    margin-top: 13px;
+}
